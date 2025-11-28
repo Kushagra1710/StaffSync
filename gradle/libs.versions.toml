@@ -1,0 +1,97 @@
+[versions]
+accompanistPermissions = "0.34.0"
+accompanistSwiperefresh = "0.33.2-alpha"
+daggerCompiler = "2.51.1"
+decompose = "3.1.0"
+ksp = "2.2.0-2.0.2"
+agp = "8.10.1"
+android-compileSdk = "35"
+android-minSdk = "24"
+android-targetSdk = "35"
+androidx-activity = "1.10.1"
+androidx-appcompat = "1.7.1"
+androidx-constraintlayout = "2.2.1"
+androidx-core = "1.16.0"
+androidx-espresso = "3.6.1"
+androidx-lifecycle = "2.9.1"
+androidx-testExt = "1.2.1"
+composeHotReload = "1.0.0-alpha11"
+composeMultiplatform = "1.8.2"
+firebaseAuth = "23.2.1"
+firebaseCommon = "1.8.1"
+firebaseConfig = "22.1.2"
+firebaseDatabase = "21.0.0"
+firebaseDatabaseKtx = "21.0.0"
+firebaseFirestore = "1.8.1"
+hiltAndroid = "2.56.2"
+hiltAndroidCompiler = "2.56.2"
+hiltLifecycleViewmodel = "1.0.0"
+hiltNavigationCompose = "1.2.0"
+hiltNavigationFragment = "1.2.0"
+junit = "4.13.2"
+kotlin = "2.2.0"
+kotlinx-coroutines = "1.10.2"
+ktor = "3.2.0"
+logback = "1.5.18"
+playServicesLocation = "21.3.0"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanistSwiperefresh" }
+activity-compose = { module = "androidx.activity:activity-compose" }
+androidx-hilt-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltLifecycleViewmodel" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose" }
+androidx-hilt-navigation-fragment = { module = "androidx.hilt:hilt-navigation-fragment", version.ref = "hiltNavigationFragment" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "daggerCompiler" }
+dagger-hilt-android = { module = "com.google.dagger:hilt-android" }
+decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "decompose" }
+decompose-extensions-compose = { module = "com.arkivanov.decompose:extensions-compose", version.ref = "decompose" }
+
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-common = { module = "dev.gitlive:firebase-common", version.ref = "firebaseCommon" }
+firebase-config = { module = "com.google.firebase:firebase-config", version.ref = "firebaseConfig" }
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+firebase-firestore = { module = "dev.gitlive:firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+gms-play-services-location = { module = "com.google.android.gms:play-services-location" }
+google-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android = { module = "com.google.dagger:hilt-android" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-testJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-testExt-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-testExt" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+kotlinx-coroutinesSwing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+ktor-serverCore = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktor" }
+ktor-serverNetty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktor" }
+ktor-serverTestHost = { module = "io.ktor:ktor-server-test-host-jvm", version.ref = "ktor" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+
+[plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+composeHotReload = { id = "org.jetbrains.compose.hot-reload", version.ref = "composeHotReload" }
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
