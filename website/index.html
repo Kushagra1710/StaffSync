@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Employee Attendance System</h1>
+            <p>Streamline your workforce management with our modern attendance tracking solution</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="app-info">
+            <div class="app-card">
+                <div class="app-details">
+                    <h2>About the App</h2>
+                    <p>A professional attendance tracking system built with modern Android technologies that allows employees to clock in/out using location services and stores data securely in Firebase.</p>
+                    
+                    <div class="feature-list">
+                        <h3>Key Features:</h3>
+                        <ul>
+                            <li>Secure Firebase Authentication</li>
+                            <li>Real-time database updates</li>
+                            <li>Background location tracking</li>
+                            <li>Modern Jetpack Compose UI</li>
+                            <li>Role-based access control</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="download-section">
+                    <div class="version-info">
+                        <p><strong>Version:</strong> <span id="version-name">{{VERSION_NAME}}</span></p>
+                        <p><strong>Build Date:</strong> <span id="build-date">{{BUILD_DATE}}</span></p>
+                    </div>
+                    
+                    <a href="employee-attendance-system.apk" class="download-btn" download>
+                        Download APK
+                    </a>
+                    
+                    <div class="instructions">
+                        <h3>Installation Instructions:</h3>
+                        <ol>
+                            <li>Download the APK using the button above</li>
+                            <li>Enable "Install from unknown sources" in your Android settings if prompted</li>
+                            <li>Open the downloaded file to install</li>
+                            <li>Launch the app and sign in with provided credentials</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tech-stack">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Kotlin</h4>
+                    <p>Modern, concise programming language for Android</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Jetpack Compose</h4>
+                    <p>Modern declarative UI toolkit for native Android</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Firebase</h4>
+                    <p>Authentication and realtime database backend</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Hilt</h4>
+                    <p>Dependency injection for streamlined development</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Employee Attendance System. Built as a portfolio project.</p>
+        </div>
+    </footer>
+</body>
+</html>
